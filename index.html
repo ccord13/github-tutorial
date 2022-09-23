@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git Rules!</title>
 
-<link rel="stylesheet" href=".css/styles.css">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div
+        class="form-group"
+        role="group"
+        aria-labelledby="contact-details-head"
+      >
+        <p id="contact-details-head">Enter your contacts details</p>
+        <label>Name <input type="text" name="username" /> </label>
+        <label>Email <input type="email" name="email" /></label>
+      </div>
 
-</head>
-<body>
-    <h1>Это шапка сайта</h1>
-</body>
+      <div class="form-group" role="group" aria-labelledby="language-head">
+        <p id="language-head">Choose your language</p>
+        <label
+          ><input type="checkbox" name="language" value="js" />JavaScript</label
+        >
+        <label><input type="checkbox" name="language" value="rb" />Ruby</label>
+        <label
+          ><input type="checkbox" name="language" value="pt" />Python</label
+        >
+      </div>
+
+      <div class="form-group" role="group" aria-labelledby="recieve-head">
+        <p id="recieve-head">I want to recieve</p>
+        <label>
+          <input type="checkbox" name="offers" value="weekly" />The weekly
+          newsletter
+        </label>
+        <label>
+          <input type="checkbox" name="offers" value="company" />Offers from
+          company</label
+        >
+        <label
+          ><input type="checkbox" name="offers" value="others" /> Offers from
+          associated companies
+        </label>
+      </div>
+      <button type="submit">Subscribe</button>
+    </form>
+  </body>
 </html>
